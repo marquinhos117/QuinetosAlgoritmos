@@ -10,15 +10,12 @@ package com.mycompany.procurarnomepelonumero;
  */
 public class Resultados {
 
-    // Vetor para armazenar os nomes
     private String[] nomes = new String[5];
 
-    // Método para adicionar um nome ao vetor
     public void adicionarNome(int indice, String nome) {
         nomes[indice] = nome;
     }
 
-    // Método para obter o nome correspondente ao índice
     public String obterNome(int indice) {
         return nomes[indice];
     }
